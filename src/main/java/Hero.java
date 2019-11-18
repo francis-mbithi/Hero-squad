@@ -43,5 +43,4 @@ public class Hero {
         return instances.get(id - 1);
     }
 
-
 }
