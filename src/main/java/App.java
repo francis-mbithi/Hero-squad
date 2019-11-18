@@ -14,16 +14,6 @@ public class App {
         ProcessBuilder process = new ProcessBuilder();
         Integer port;
 
-        // This tells our app that if Heroku sets a port for us, we need to use that port.
-        // Otherwise, if they do not, continue using port 4567.
-
-        if (process.environment().get("PORT") != null) {
-            port = Integer.parseInt(process.environment().get("PORT"));
-        } else {
-            port = 4567;
-        }
-
-        port(port);
 
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
@@ -45,19 +35,6 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-
-//        post("/heroes",(request, response) -> {
-//            Map<String, Object> model = new HashMap<String, Object>();
-//            String name = request.queryParams("name");
-//            String age = request.queryParams("age");
-//            String power = request.queryParams("power");
-//            String weakness = request.queryParams("weakness");
-//
-//            Hero hero = new Hero(name, age, power, weakness);
-//            model.put("template", "templates/success.vtl");
-//
-//            return new ModelAndView(model, layout);
-//        },new VelocityTemplateEngine());
 
         post("/heroes", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
