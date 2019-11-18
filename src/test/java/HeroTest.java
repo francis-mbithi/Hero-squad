@@ -17,13 +17,13 @@ public class HeroTest {
     }
     @Test
     public void Hero_instantiatesWithAge_int() {
-        Hero hero = new Hero("Jon","8","sleep","light");
+        Hero hero = new Hero("Frank","8","rush","light");
         assertEquals("8", hero.getAge());
     }
     @Test
     public void Hero_instantiatesWithPower_String() {
-        Hero hero = new Hero("Jon","8","sleep","light");
-        assertEquals("sleep", hero.getPower());
+        Hero hero = new Hero("Frank","8","rush","light");
+        assertEquals("rush", hero.getPower());
     }
 //    @Test
 //    public void Hero_instantiatesWithPower_String() {
