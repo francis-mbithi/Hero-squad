@@ -12,8 +12,8 @@ public class HeroTest {
 
     @Test
     public void Hero_instantiatesWithName_String() {
-        Hero hero = new Hero("Jon","7","sleep","light");
-        assertEquals("Jon", hero.getName());
+        Hero hero = new Hero("Frank","7","rush","light");
+        assertEquals("Frank", hero.getName());
     }
     @Test
     public void Hero_instantiatesWithAge_int() {
