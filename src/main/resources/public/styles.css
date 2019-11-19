@@ -1,0 +1,26 @@
+
+.space{
+    margin-bottom:30px;
+}
+.main-part{
+    min-height: 800px;
+}
+img{
+    height:50px;
+    width:50px;
+
+}
+body {
+
+  height: auto !important;
+  margin-bottom: -80px;
+  overflow:scroll;
+}
+.card {
+width : 250px;
+margin-right: 10px;
+margin-top: 10px;
+display: inline-block;
+}
+
+
