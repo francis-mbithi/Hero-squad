@@ -51,7 +51,7 @@ public class HeroTest {
     @Test
     public void getId_heroesInitiateWithAnID_1(){
         Hero.clear();
-        Hero hero = new Hero("Juan","9","speed", "faster bird");
+        Hero hero = new Hero("Frank","9","speed", "fast");
         assertEquals(1, hero.getId());
     }
     @Test
