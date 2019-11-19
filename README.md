@@ -25,8 +25,8 @@ Project is created with:
 * To run the application, first install the java development kit from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Install gradle.
 * Next clone the project using $ git clone https://github.com/francis-mbithi/Hero-squad.git to your preferred folder.
-* In the command prompt, navigate to cloned folder and use the following command to run the app **$ gradle run
-* Open the browser and enter the address **localhost:4567
+* In the command prompt, navigate to cloned folder and use the following command to run the app ** $ gradle run **
+* Open the browser and enter the address **localhost:4567**
 
 # live link
 https://herosquad001.herokuapp.com/
