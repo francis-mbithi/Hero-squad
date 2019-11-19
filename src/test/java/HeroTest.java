@@ -32,7 +32,7 @@ public class HeroTest {
 //    }
     @Test
     public void Hero_instantiatesWithWeakness_String() {
-        Hero hero = new Hero("Jon","8","sleep","light");
+        Hero hero = new Hero("Frank","8","sleep","light");
         assertEquals("light", hero.getWeakness());
     }
     @Test
