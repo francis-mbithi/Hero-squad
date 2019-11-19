@@ -44,7 +44,7 @@ public class HeroTest {
     }
     @Test
     public void clear_emptiesAllHeroesFromArrayList_0() {
-        Hero hero = new Hero("Juan","8","speed", "faster bird");
+        Hero hero = new Hero("Frank","8","speed", "lighting");
         Hero.clear();
         assertEquals(Hero.all().size(), 0);
     }
