@@ -37,8 +37,8 @@ public class HeroTest {
     }
     @Test
     public void all_returnsAllInstancesOfHero_true(){
-        Hero heroOne = new Hero("Yani","9","laziness", "weights");
-        Hero heroTwo = new Hero("Juan","10","speed", "faster bird");
+        Hero heroOne = new Hero("Frank","9","laziness", "weights");
+        Hero heroTwo = new Hero("Frank","10","speed", "flash");
         assertTrue(Hero.all().contains(heroOne));
         assertTrue(Hero.all().contains(heroTwo));
     }
